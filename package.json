@@ -1,0 +1,9 @@
+{
+  "name": "beastwilson-webserver",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.16.2",
+    "intrepid-api": "^1.0.1",
+    "nodeyourmeme": "^1.0.2"
+  }
+}

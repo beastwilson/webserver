@@ -32,7 +32,7 @@ class TeslaModule extends Module {
                     res.status(200).json({text: 'Succesfully ran command ' + command});
                 })
                 .catch((e) => {
-                    res.status(500).json({error: e.toString()});
+                    res.status(500).json({error: e.message || e.toString()});
                 });
         });
     }

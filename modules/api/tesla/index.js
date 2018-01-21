@@ -20,7 +20,7 @@ class TeslaModule extends Module {
     }
 
     register(app, extra) {
-        app.get('tesla/:command', (req, res) => {
+        app.get('/tesla/:command', (req, res) => {
             const command = req.params.command;
 
             if (!TeslaModule.isValidCommand(command)) {
